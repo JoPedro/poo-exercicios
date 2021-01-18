@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace I___Q03
+namespace IEx03
 {
     class Program
     {
@@ -13,6 +9,7 @@ namespace I___Q03
             Console.WriteLine("Digite seu primeiro nome:");
             string nome = Console.ReadLine();
 
+			Console.WriteLine();
             Console.WriteLine("Bem-vindo ao C#, " + nome);
         }
     }
